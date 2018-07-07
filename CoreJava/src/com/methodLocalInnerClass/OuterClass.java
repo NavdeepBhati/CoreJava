@@ -7,7 +7,7 @@ public class OuterClass {
 	public void outerClassMethod() {
 		System.out.println(" Outer Class Method ");
 	
-		final int localVar=5;
+		 final int localVar=5;
 		class InnerClass{
 			public void innerClassMethod () {
 				System.out.println(" Inner class Method");

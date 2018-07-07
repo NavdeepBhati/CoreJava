@@ -7,7 +7,7 @@ public class MainClass {
 	OuterClass outClass= new OuterClass();
 	outClass.outerMethod();
 	
-	OuterClass.InnerClass inClass= new OuterClass().new InnerClass();
+	OuterClass.InnerClass inClass= outClass.new InnerClass();
 	
 	inClass.innerMethod();
 

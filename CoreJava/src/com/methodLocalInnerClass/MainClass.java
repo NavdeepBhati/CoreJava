@@ -8,5 +8,10 @@ public class MainClass {
 		
 				outerClass.outerClassMethod();
 		
+				
+				System.out.println(System.getProperty("java.version"));
 	}
+	
+	
+	
 }
